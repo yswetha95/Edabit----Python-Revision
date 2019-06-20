@@ -1,0 +1,5 @@
+def next_element(lst):
+	n=len(lst)
+	a=lst[0]
+	d=lst[1]-lst[0]
+	return a+(n*d)
